@@ -20,8 +20,8 @@ atexit.register(turnOffMotors)
 myMotor = mh.getMotor(3)
 
 # set the speed to start, from 0 (off) to 255 (max speed)
-myMotor.setSpeed(150)
+myMotor.setSpeed(200)
 myMotor.run(Adafruit_MotorHAT.FORWARD);
 # turn on motor
-time.sleep(1)
+time.sleep(1006)
 myMotor.run(Adafruit_MotorHAT.RELEASE);
