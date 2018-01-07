@@ -21,8 +21,8 @@ myMotor = mh.getMotor(1)
 
 # set the speed to start, from 0 (off) to 255 (max speed)
 myMotor.setSpeed(200)
-myMotor.run(Adafruit_MotorHAT.FORWARD);
+myMotor.run(Adafruit_MotorHAT.BACKWARD);
 # turn on motor
 time.sleep(1006)
-myMotor.run(Adafruit_MotorHAT.BACKWARD);
+myMotor.run(Adafruit_MotorHAT.FORWARD);
 myMotor.run(Adafruit_MotorHAT.RELEASE);
