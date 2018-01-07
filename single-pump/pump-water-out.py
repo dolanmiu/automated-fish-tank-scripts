@@ -23,5 +23,5 @@ myMotor = mh.getMotor(1)
 myMotor.setSpeed(200)
 myMotor.run(Adafruit_MotorHAT.FORWARD);
 # turn on motor
-time.sleep(1006)
+time.sleep(503)
 myMotor.run(Adafruit_MotorHAT.RELEASE);

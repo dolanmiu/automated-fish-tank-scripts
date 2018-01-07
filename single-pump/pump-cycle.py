@@ -23,6 +23,8 @@ myMotor = mh.getMotor(1)
 myMotor.setSpeed(200)
 myMotor.run(Adafruit_MotorHAT.BACKWARD);
 # turn on motor
-time.sleep(1006)
+# 1006 for 5 gallons
+time.sleep(503)
 myMotor.run(Adafruit_MotorHAT.FORWARD);
+time.sleep(503)
 myMotor.run(Adafruit_MotorHAT.RELEASE);
