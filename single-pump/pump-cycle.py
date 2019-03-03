@@ -21,10 +21,10 @@ myMotor = mh.getMotor(1)
 
 # set the speed to start, from 0 (off) to 255 (max speed)
 myMotor.setSpeed(200)
-myMotor.run(Adafruit_MotorHAT.BACKWARD);
+myMotor.run(Adafruit_MotorHAT.FORWARD);
 # turn on motor
 # 1006 for 5 gallons
-time.sleep(503)
-myMotor.run(Adafruit_MotorHAT.FORWARD);
-time.sleep(503)
+time.sleep(400)
+myMotor.run(Adafruit_MotorHAT.BACKWARD);
+time.sleep(400)
 myMotor.run(Adafruit_MotorHAT.RELEASE);
